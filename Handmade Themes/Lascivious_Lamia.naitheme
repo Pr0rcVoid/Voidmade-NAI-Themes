@@ -1,0 +1,45 @@
+{
+  "name": "Lascivious Lamia",
+  "fonts": {
+    "default": "\"Atkinson Hyperlegible\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+    "code": "\"Source Code Pro\", Menlo, Monaco, Consolas, \"Courier New\", monospace",
+    "field": "\"Atkinson Hyperlegible\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif",
+    "headings": "\"Atkinson Hyperlegible\"",
+    "selectedHeadings": "Atkinson Hyperlegible",
+    "selectedDefault": "Atkinson Hyperlegible"
+  },
+  "colors": {
+    "bg0": "#5f4223",
+    "bg1": "#4d2f1a",
+    "bg2": "#603a1d",
+    "bg3": "#da9100",
+    "textHeadings": "#D9AB38",
+    "textMain": "#FFDEB3",
+    "textHeadingsOptions": [
+      "#B8BA37",
+      "#F84B3C",
+      "#C264D1",
+      "#00BF63"
+    ],
+    "textMainOptions": [
+      "#EBDAB2"
+    ],
+    "textDisabled": "rgba(255,222,179,0.56)",
+    "textPlaceholder": "rgba(255,222,179,0.38)",
+    "warning": "#c53d29",
+    "textHighlight": "rgba(255, 120, 120, 0.4)",
+    "textPrompt": "#D9AB38",
+    "textUser": "#3c8f65",
+    "textEdit": "#ffa546",
+    "textAI": "#FFDEB3",
+    "error": "#AD4040"
+  },
+  "breakpoints": {
+    "mobile": "1200px",
+    "desktop": "2800px"
+  },
+  "transitions": {
+    "interactive": "0.08s ease-in-out"
+  },
+  "global": ":root {     --bg1: rgba(96, 51, 17, 0.533);     --textcol1: rgb(255, 222, 179);     --redbutton: rgb(106, 61, 51);     --colborder: rgb(217, 171, 56);     --delete: rgba(193, 100, 72, 0.90);     --null: rgba(0, 0, 0, 0);     --shadow: rgb(17, 17, 17);     --col00: rgb(14, 12, 10);     --col01: rgba(39, 25, 11, 0.74);     --col02: rgba(39, 25, 11, 0.69);     --col03: rgba(63, 45, 18, 0.87);     --col04: rgba(119, 119, 119, 0.8);     --col05: rgba(4, 17, 7, 0.8);     --col06: rgba(4, 17, 7, 0.02);     --col07: rgba(62, 88, 61, 0.8);     --col08: rgba(38, 56, 36, 0.8);     --col09: rgba(25, 30, 24, 0.69);     --col10: rgba(43, 40, 34, 0.8);     --col11: rgba(34, 43, 35, 0.8);     --col12: rgba(37, 43, 34, 0.89);     --col13: rgba(34, 43, 35, 0.72);     --col14: rgba(39, 43, 34, 0.8);     --col15: rgba(36, 43, 34, 0.82);     --col16: rgba(36, 43, 34, 0.84); }  .csukeJ:hover, .csukeJ:focus {     background: var(--bg1) none repeat scroll 0% 0% !important; }  .userText, .editText, .aiText, .promptText {     text-shadow: -2px 0 var(--shadow), 0 2px var(--shadow), 2px 0 var(--shadow), 0 -2px var(--shadow); }  .eyMwwO, .conversation {     max-width: 3000px !important;     background: inherit !important; }  #app {     background-blend-mode: soft-light !important;     background-repeat: repeat !important;     background-size: cover !important;     background-position: center !important; }  .conversation-main {     border: 2px groove var(--colborder) !important;     border-radius: 30px; }  .iXslYH {     background: transparent !important;     border: 2px groove var(--colborder) !important;     border-radius: 7px 7px 22px 22px; }  .erMRWP, .ProseMirror {     background: var(--col10) none repeat scroll 0% 0% !important; }  .ProseMirror-focused {     background-blend-mode: normal !important;     background-repeat: repeat !important;     background-size: cover !important;     background-position: center !important; }  .story-list {}  .sidebar-story-card, .fSSyWb {     background: var(--col01) !important; }  .fYRVle {     background-color: var(--col03); }  .infobar {     background: inherit; }  .jeZmsy {     background: var(--col05) none repeat scroll 0% 0%; }  .fYRVle:hover {     background-color: var(--col16); }  .drsNoh> :nth-child(1)> :nth-child(2), .ewUjbr> :nth-child(1)> :nth-child(2) {     background-color: var(--col01); }  .iGCkIB {     background-color: var(--col07); }  .dWksed {     color: var(--redbutton) !important; }  .coHQti, .felCJI:hover, .felCJI:focus, .djcUQG {     background-color: var(--col02) !important; }  .css-3hy965-control, .kYAPIX {     background-color: var(--col11); }  .sc-hguplt, .sc-BXpxD, .sc-fiKUBa {     background: inherit;     background-blend-mode: hard-light; }  .sc-jEUCxR:hover {     background-color: var(--col12); }  .sc-ezrnTI {     background-color: #201b21;     border: solid 2px var(--col04);     height: 95%; }  .egckea, .sc-bOdrWM {     background: var(--col06) none repeat scroll 0% 0%; }  .dBmoIE {     background: var(--col08) none repeat scroll 0% 0%; }  .eVOUAz {     background: inherit;     background-blend-mode: hard-light; }  .sc-hTZgZg, .fvRhhS {     background: #29222b;     background-image: none;     background-size: auto;     background-position: center;     background-size: auto 100%;     background-blend-mode: soft-light;     background-position: right; }  .sc-jNMcJZ {     background: #29222b;     background-image: none;     background-size: auto;     background-position: center;     background-size: auto 100%;     background-blend-mode: soft-light;     background-color: var(--col08) }  .infobar input, .keDGkI, .fbhNbQ, .sc-hiSbEG, .d2e {     background: var(--col08) none repeat scroll 0% 0% !important; }  .select {     background: var(--col14) none repeat scroll 0% 0% !important; }  .delete-button, .hhhsQn {     background: var(--delete) none repeat scroll 0% 0% !important; }  .dnyWAK {     cursor: pointer;     padding: 20px;     position: relative;     transition: all 0.08s ease-in-out 0s;     background: var(--col15) none repeat scroll 0% 0%; }  .eeYCdm:hover {     background: var(--col13) none repeat scroll 0% 0%; }  .sc-jEUCxR:hover {     background-color: transparent; }  .jonGLq {     left: -50px; }  .gczojI {     right: -50px; }  @media (max-width:1200px) {     .hBBUUZ {         background: var(--col09);     }      #app {         background-position: -35em 10px !important;     }      .hxbPzW,     .eAqhGK {         background: var(--col09) !important;     } }  .menubar, .infobar {     background: rgb(77, 47, 26) !important; }  .caohtB>span {     color: black; }  .eaqrbg, .haweAS, .gMDuyy, .hciljb, .idQzMH {     color: var(--textcol1) !important; }"
+}
