@@ -1,6 +1,7 @@
 :root {
     --redbutton: rgb(106, 61, 51);
     --delete: rgba(193, 100, 72, 0.90);
+    --colBorderMain: rgb(32, 132, 139);
     --null: rgba(0, 0, 0, 0);
     --shadow: rgb(17, 17, 17);
     --col00: rgb(13, 10, 14);
@@ -45,13 +46,18 @@
 }
 
 .conversation-main {
-    border: 2px groove #20848b !important;
+    border: 2px groove var(--colBorderMain) !important;
     border-radius: 30px;
+}
+
+.conversation-input-container {
+    border: var(--colBorderMain) solid 2px !important;
+    border-radius: 11px 11px 17px 17px !important;
 }
 
 .iXslYH {
     background: transparent !important;
-    border: 2px groove #20848b !important;
+    border: 2px groove var(--colBorderMain) !important;
     border-radius: 7px 7px 22px 22px;
 }
 
@@ -81,8 +87,9 @@
     background: var(--col01) !important;
 }
 
-.fYRVle {
-    background-color: var(--col03);
+.fYRVle,
+.dsvpeo {
+    background-color: var(--col03) !important;
 }
 
 .infobar {
@@ -106,8 +113,23 @@
     background-color: var(--col07);
 }
 
-.dWksed {
+.dWksed,
+.OrHCA {
     color: var(--redbutton) !important;
+}
+
+.kVaZA-D,
+.lkmfJi {
+    background-color: var(--col09) !important;
+}
+
+.kVaZA-D,
+.hpcAXJ {
+    width: 100% !important;
+}
+
+.dGYveJ.OrHCA.button {
+    color: var(--col02) !important;
 }
 
 .coHQti,
