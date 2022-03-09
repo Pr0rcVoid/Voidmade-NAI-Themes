@@ -1,4 +1,8 @@
 :root {
+    --colBlu: rgb(86, 154, 215);
+    --colRed: rgb(200, 69, 42);
+    --colGreen: rgb(0, 128, 0);
+    --colTeal: rgb(0, 128, 128);
     --redbutton: rgb(106, 61, 51);
     --delete: rgba(193, 100, 72, 0.90);
     --colBorderMain: rgb(32, 132, 139);
@@ -289,4 +293,24 @@
 .gPKlsj {
     height: 100% !important;
     max-height: 100% !important;
+}
+
+.bKwAqI>span {
+    color: var() !important;
+}
+
+.bKwAqI>span:nth-child(3n+8) {
+    color: var(--colTeal) !important;
+}
+
+.bKwAqI>span:nth-child(3n+7) {
+    color: var(--colBlu) !important;
+}
+
+.bKwAqI>span:nth-child(3n+9) {
+    color: var(--colGreen) !important;
+}
+
+.gPJNtF {
+    background: var(--col16) !important;
 }
