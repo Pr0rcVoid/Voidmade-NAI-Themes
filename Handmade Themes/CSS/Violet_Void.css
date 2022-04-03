@@ -31,7 +31,8 @@
 .userText,
 .editText,
 .aiText,
-.promptText {
+.promptText,
+.bEsKrR {
     text-shadow: -2px 0 var(--shadow), 0 2px var(--shadow), 2px 0 var(--shadow), 0 -2px var(--shadow);
 }
 
