@@ -4,6 +4,7 @@
     --colGreen: rgb(0, 128, 0);
     --colTeal: rgb(0, 128, 128);
     --redbutton: rgb(106, 61, 51);
+    --colLastOut: rgba(87, 219, 200, 0.18);
     --delete: rgba(193, 100, 72, 0.90);
     --colBorderMain: rgb(32, 132, 139);
     --null: rgba(0, 0, 0, 0);
@@ -281,8 +282,19 @@
 
 .menubar,
 .infobar,
-.redo-menu {
+.redo-menu,
+.cFsmYG,
+.kTlXmA,
+.iSGWUV,
+.kFEulD,
+.dAyrKh {
     background: var(--col09) !important;
+}
+
+.kTlXmA,
+.ccpRVM,
+.dTTqUS {
+    color: var(--col14) !important;
 }
 
 .caohtB>span {
@@ -295,18 +307,22 @@
     max-height: 100% !important;
 }
 
+.dziKnG>span,
 .bKwAqI>span {
     color: var() !important;
 }
 
+.dziKnG>span:nth-child(3n+8),
 .bKwAqI>span:nth-child(3n+8) {
     color: var(--colTeal) !important;
 }
 
+.dziKnG>span:nth-child(3n+7),
 .bKwAqI>span:nth-child(3n+7) {
     color: var(--colBlu) !important;
 }
 
+.dziKnG>span:nth-child(3n+9),
 .bKwAqI>span:nth-child(3n+9) {
     color: var(--colGreen) !important;
 }
@@ -318,4 +334,16 @@
 .hVnWWF,
 .jZZaZ {
     background: var(--col03) !important;
+}
+
+.jhhVCm {
+    right: -100px !important;
+}
+
+.csTFZZ {
+    left: -100px !important;
+}
+
+.retryDeletionText {
+    background: var(--colLastOut);
 }
