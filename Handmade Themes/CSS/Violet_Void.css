@@ -26,14 +26,20 @@
     --col14: rgba(41, 34, 43, 0.8);
     --col15: rgba(41, 34, 43, 0.82);
     --col16: rgba(41, 34, 43, 0.84);
+    --bgmobile: url('https://cdn.donmai.us/original/1c/56/__original_drawn_by_motocross_saito__1c56c7da8ecf0e5bab57f042b33603bf.gif');
+    --bgmobilestorylist: url('https://cdn.donmai.us/original/1c/56/__original_drawn_by_motocross_saito__1c56c7da8ecf0e5bab57f042b33603bf.gif');
+    --bgmain: url('https://cdn.donmai.us/original/50/f1/__original_drawn_by_kldpxl__50f19ebf018b138798d6e1b2196a31fb.gif');
+    --bgstorylist: url('https://i.pinimg.com/736x/82/09/c5/8209c5107b0f388a8680de32b8f70ed4--shooting-stars-pixel-art.jpg');
 }
 
 .userText,
 .editText,
 .aiText,
 .promptText,
-.bEsKrR {
-    text-shadow: -2px 0 var(--shadow), 0 2px var(--shadow), 2px 0 var(--shadow), 0 -2px var(--shadow);
+.bEsKrR,
+.kWgIGF>span,
+.bcwbyl>div>span {
+    text-shadow: -2px 0 var(--shadow), 0 2px var(--shadow), 2px 0 var(--shadow), 0 -2px var(--shadow) !important;
 }
 
 .eyMwwO,
@@ -44,7 +50,7 @@
 
 #app {
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c07bb032-a883-42b4-99b0-04b51ef78058/d9eu4su-2c9eabc3-c9ef-4eae-b6be-a79396a3231b.png/v1/fill/w_1192,h_670,q_75,strp/high_charity_2_by_killthatthing-d9eu4su.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9jMDdiYjAzMi1hODgzLTQyYjQtOTliMC0wNGI1MWVmNzgwNTgvZDlldTRzdS0yYzllYWJjMy1jOWVmLTRlYWUtYjZiZS1hNzkzOTZhMzIzMWIucG5nIiwid2lkdGgiOiI8PTExOTIiLCJoZWlnaHQiOiI8PTY3MCJ9XV19.SJ3J8wrFkCaAAxiezngL1DEmf0PRplGNP0ER_sjeMQM') !important;
-    background-image: url('https://cdn.donmai.us/original/50/f1/__original_drawn_by_kldpxl__50f19ebf018b138798d6e1b2196a31fb.gif') !important;
+    background-image: var(--bgmain) !important;
     background-blend-mode: soft-light !important;
     background-repeat: repeat !important;
     background-size: cover !important;
@@ -81,7 +87,7 @@
 
 .story-list {
     background: var(--col00) none repeat scroll 0% 0%;
-    background-image: url(https://i.pinimg.com/736x/82/09/c5/8209c5107b0f388a8680de32b8f70ed4--shooting-stars-pixel-art.jpg);
+    background-image: var(--bgstorylist);
     background-position: center;
     background-blend-mode: difference;
     background-repeat: repeat-y;
@@ -256,7 +262,7 @@
     }
 
     .story-list {
-        background-image: url('https://cdn.donmai.us/original/1c/56/__original_drawn_by_motocross_saito__1c56c7da8ecf0e5bab57f042b33603bf.gif');
+        background-image: var(--bgmobilestorylist);
         background-blend-mode: difference;
         background-repeat: repeat-y;
         background-size: 350%;
@@ -264,7 +270,7 @@
     }
 
     #app {
-        background-image: url(https://cdn.donmai.us/original/1c/56/__original_drawn_by_motocross_saito__1c56c7da8ecf0e5bab57f042b33603bf.gif) !important;
+        background-image: var(--bgmobile) !important;
         background-position: -35em 10px !important;
     }
 
@@ -328,7 +334,11 @@
     color: var(--colGreen) !important;
 }
 
-.gPJNtF {
+.gPJNtF,
+.trainer-result-overlay,
+.lorebook-sidebar,
+.settings-sidebar,
+.bJOCAO {
     background: var(--col16) !important;
 }
 
@@ -347,4 +357,8 @@
 
 .retryDeletionText {
     background: var(--colLastOut);
+}
+
+.gZGqcQ:hover {
+    background: var(--delete) !important;
 }
